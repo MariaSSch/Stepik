@@ -1,0 +1,224 @@
+body {
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif; /*комментарий дежурный для гит*/
+}
+h1 {
+    font-size: 64px;
+    text-align: center;
+    
+}
+.header {
+    background-color: #007765;
+    border: thin solid black;/*надо ли оставить?*/
+    height: 84PX;
+    margin-bottom: 0px;
+    width: inherit;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 0px;
+    
+}
+
+.container img {
+    width: 183.96px;
+    height: 45.04px;
+    margin-top: 20px;
+    margin-left: 55.04px;
+}
+
+nav {
+    float: right;
+    margin-right: 54px;
+    margin-top: 29px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+.jumbotron {
+    background-image: url(piper_img/1.0_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+   height: 403px;
+   margin: auto;
+}
+
+.jumbotron h1 {
+    padding-top: 160px;
+    margin: auto;
+}
+
+.problem {
+    background-color: #eeeeee;
+    height: 719px;
+    padding: auto; /*почему здесь не приклеивается к верхнему блоку?*/
+}
+.problem h1 {
+    color: #007765;
+    padding-top: 48px;
+    line-height: 75px;
+    margin: auto; /*почему это работает как срастание блоков??*/
+}
+
+.p_text {
+    margin-left: 55px;
+    margin-right: 54px;
+    margin-top: 16px;
+    height: 488px;
+}
+
+p.text p {
+    line-height: 37.5px;
+    font-weight: 400;
+}
+
+.p_text span {
+    font-weight: 700;
+}
+
+.hero {
+    height: 483px;
+    background-image: url(piper_img/3.0_image.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.h_text { /*списано*/
+   box-sizing: border-box;
+   max-width: 1219;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 163px;
+   padding-left: 163px;
+   padding-top: 128px;
+       
+}
+
+.introduce {
+    height: 604px;
+    background-color: #FFFFFF;
+}
+
+.introduce h1 {
+    color: #007765;
+    line-height: 75px;
+    padding-top: 48px;
+}
+
+.introduce img {
+    width: 115px;
+    height: 115px;
+    float: left;
+    padding-left: 55px;
+    padding-right: 48px;
+}
+
+p.clear {
+    padding-left: 55px;
+    padding-right: 54px;
+}
+
+.team {
+    background-color: #eeeeee;
+    height: 845px;
+}
+
+.team h1 {
+    color: #007765;
+    padding-top: 48px;
+    margin: auto;
+
+}
+
+.team img {
+    width: 168px;
+    height: 168px;
+}
+
+.team span.name {
+    font-size: 0.75em;
+    color:#007765;
+    line-height: 28.13px;
+    text-align: center;
+}
+
+.team span.title {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 21.09px;
+    
+}
+
+.team figure.left {
+    float: left;
+    margin-left: 146px;
+    text-align: center;
+}
+
+.team figure.right {
+    float: right;
+    margin-right: 145px;
+    text-align: center;
+}
+
+.team figure.center {
+    margin-left: 150px;
+    margin-right: 150px;
+    float: left;
+    text-align: center;
+}
+
+.footer {
+    height: 176px;
+    background-color: #333333;
+}
+.footer p {
+    height: 64px;
+    width: 540px;
+    color: #ffffff;
+    font-size: 0.56em;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+    padding-top: 48px;
+    margin: auto;
+
+
+}
+/*.members {
+  width: 100%;
+    display: flex;
+  
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+*/
+/*.member {
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  flex-basis: 30%;
+  
+}*/
+
